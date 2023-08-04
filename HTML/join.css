@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    background-image: url("/images/pexels5.jpg");
+    background-size: 1900px;
+    background-position: center;
+    color: #0a33e9;
+  }
+  
+  .container {
+    max-width: 400px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(9, 214, 241, 0.1);
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  h2 {
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1)
+  }
+  
+  label {
+    margin-top: 10px;
+  }
+  
+  input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+  }
+  
+  input[type="submit"] {
+    background-color: #0a33e9;
+    color: white;
+    cursor: pointer;
+  
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #28ebe1;
+  }
+  
